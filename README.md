@@ -6,6 +6,7 @@
 [![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
 [![Gem Version](https://badge.fury.io/rb/rubocop.svg)](https://badge.fury.io/rb/rubocop)
 [![CI](https://github.com/rubocop/rubocop/actions/workflows/rubocop.yml/badge.svg)](https://github.com/rubocop/rubocop/actions/workflows/rubocop.yml)
+[![Duel](https://raw.githubusercontent.com/rubocop/rubocop/duel/badge/badge.svg)](https://github.com/sferik/duel-ruby)
 [![Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg?sanitize=true)](https://discord.gg/wJjWvGRDmm)
 
 > Role models are important. <br/>

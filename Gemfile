@@ -6,6 +6,8 @@ gemspec
 
 gem 'asciidoctor'
 gem 'bump', require: false
+# Duel requires Ruby 3.4 or later.
+gem 'duel', '>= 0.1.4', require: false if RUBY_VERSION >= '3.4'
 gem 'fiddle', platform: :windows if RUBY_VERSION >= '3.4'
 gem 'irb'
 # FIXME: mcp 1.8.0 makes Ruby 2.7 print a keyword argument deprecation warning for every
