@@ -3,6 +3,7 @@ name: CI
 on:
   push:
     branches:
+      - ci-check
       - master
   pull_request:
   workflow_dispatch:
