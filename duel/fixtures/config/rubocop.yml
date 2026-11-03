@@ -1,0 +1,28 @@
+inherit_from:
+  - shared.yml
+  - rubocop_todo.yml
+
+AllCops:
+  TargetRubyVersion: 3.4
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+    - 'tmp/**/*'
+
+Layout/LineLength:
+  Max: 120
+  AllowedPatterns:
+    - !ruby/regexp /\A\s*#/
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'config/routes.rb'
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+
+Naming/PredicateMethod:
+  Enabled: false

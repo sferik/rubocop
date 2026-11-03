@@ -18,11 +18,18 @@ AllCops:
   Exclude:
     - 'vendor/**/*'
     - 'spec/fixtures/**/*'
+    - 'duel/fixtures/**/*'
     - 'tmp/**/*'
     - '.git/**/*'
     - 'bin/*'
+  Include:
+    - '.duel.rb'
   TargetRubyVersion: 2.7
   SuggestExtensions: false
+
+inherit_mode:
+  merge:
+    - Include
 
 Naming/PredicateMethod:
   AllowedPatterns:

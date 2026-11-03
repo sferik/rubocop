@@ -1,0 +1,25 @@
+AllCops:
+  TargetRubyVersion: 3.4
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+  EnforcedColonStyle: table
+
+Metrics/MethodLength:
+  Max: 15
+  CountAsOne:
+    - array
+    - hash
+    - heredoc
+
+Metrics/AbcSize:
+  Max: 20
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
